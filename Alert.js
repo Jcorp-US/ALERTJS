@@ -1,3 +1,5 @@
+//ALERT.js (C) 2019 Jcorp; MIT License 
+
 class Alert {
     constructor(title, contents) {
       this.title = title;
