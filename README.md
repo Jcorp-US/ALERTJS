@@ -1,5 +1,5 @@
 # ALERTJS
-Send in-page alerts in JavaScript (no dependancies)
+Send in-page alerts in JavaScript (no dependencies)
 
 Created for Platform LMS by Jcorp. (MIT License)
 
