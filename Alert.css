@@ -1,0 +1,63 @@
+/* ALERT.js (C) 2019 Jcorp; MIT License */
+
+.alert_main {
+    background-color: white;
+    box-shadow: 1px 2px 5px #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20vw;
+    transition: 2s box-shadow, 2s opacity;
+    position: fixed;
+    right:15px;
+    display: block;
+    top: 15px;
+    cursor: default;
+    z-index: 100;
+    animation-name: alert_enter;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function:  ease-out;
+    min-width: 200px;
+
+}
+.alert_main:hover {
+    box-shadow: 1px 2px 8px #ccc;
+    opacity:0.5 !important;
+}
+
+.alert_main h1, .alert_main p {
+    margin:0;
+    padding:0;
+}
+
+.alert_main h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-bottom: 2.5px;
+    color: #777;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.alert_main p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #999;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@keyframes alert_enter {
+    from {
+    opacity: 0;
+    right: -550px;
+    }
+    to {
+    opacity: 1;
+    right: 15px;
+    }
+}
