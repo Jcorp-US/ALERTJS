@@ -53,11 +53,11 @@
 
 @keyframes alert_enter {
     from {
-    opacity: 0;
-    right: -550px;
+        opacity: 0;
+        right: -550px;
     }
     to {
-    opacity: 1;
-    right: 15px;
+        opacity: 1;
+        right: 15px;
     }
 }
